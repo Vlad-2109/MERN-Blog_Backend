@@ -21,7 +21,7 @@ mongoose
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors({ credentials: true, origin: 'http://localhost:3000' }));
+app.use(cors({ credentials: true, origin: 'http://localhost:5173' }));
 app.use(upload());
 app.use('/uploads', express.static(__dirname + '/uploads'));
 
